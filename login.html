@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+		<link href="log.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+	
+	
+</head>
+
+<body>
+	<div id="container">
+	 <form onSubmit=" return validate()" action="green.html">
+		<input id="uname" placeholder="Username" type="text"/><br><br>
+		<input id="pass" placeholder="Password" type="password"/><br><br>
+		 <input id="email" placeholder="E-mail" type="email" required/><br><br>
+		 <div ng-app ng-init="">
+		<p><input id="year" type="number" ng-model="Year" placeholder="Enter Year of Birth" required r</p>
+			<p>Your Age is:{{2019-Year}}</p>
+		</div>
+		 <button type="submit" class="btn btn-primary">Login</button>
+			 <button type="reset" class="btn btn-primary">Reset</button> 
+	</form>
+		
+	</div>
+</body>
+</html>

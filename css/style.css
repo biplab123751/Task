@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#D81F22;
+	margin: 0px;
+	padding: 0px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+a{
+	text-decoration: none;
+	color:#110BDA;
+	
+}
+a:hover{
+	text-decoration: underline;
+}
+#wrapper{
+	width:1200px;
+	height: auto;
+	overflow: hidden;
+	margin:auto;
+	background:#FFFFFF;
+}
+#header{
+	height: 140px;
+}
+.logo{
+	float: left;
+}
+.contact{
+	float: right;
+	color: green;
+	text-align:right;
+	padding-right: 20px;
+	padding-top:20px;
+}
+.name{
+	font-size: 40px;
+	margin-left: 20px;
+	color:green;
+	float: left;
+	height: 26px;
+}
+.cap{
+	font-size: 15px;
+	margin-left: 50px;
+}
+#menu{
+	height:100px;
+	background: #DE0D0D;
+	
+}
+#menu ul{
+	list-style: none;
+	margin:0px;
+	padding:10px 0px;
+	
+	
+	
+}
+#menu ul li{
+	float:left;	
+	padding: 10px;
+	text-align:left;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+#menu ul li a{
+	text-decoration:none;
+	color:#FCFCFC;
+	padding:10px 30px 10px 50px;	
+	
+}
+#menu ul li a active {
+	background:#5D5CBE;
+}
+#menu ul li a:hover{
+	color:#C2B51D;
+}
+
+#content{
+height:auto;
+}
+	
+.cont{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:18px;
+	color:#030303;
+	padding:0px 15px; 
+	text-align: justify;
+	background:#62698D;
+}
+#footer{
+	height:40px;
+	background: #1424F0;
+	padding:40px 40px 40px 550px;
+	color:#FBFBFB;
+	
+}
+#hide{
+	margin-left: 500px;
+}
+
+
